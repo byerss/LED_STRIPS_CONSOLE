@@ -35,6 +35,7 @@ void setup() {
   Serial.println("i is the channel number (1 through 6), ");
   Serial.println("n is the 8-bit brightness values (0 to 255), and");
   Serial.println("s is the speed factor (1 = very slow, 3600 = instant).");
+  Serial.println("Works for multiple channels simultaneously by entering i,n,s,i,n,s,...");
   //Serial.println("Line Ending must be set to Newline.");
   Serial.println("");
 }
